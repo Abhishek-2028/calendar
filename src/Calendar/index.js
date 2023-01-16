@@ -28,7 +28,7 @@ const Calendar = ({ value }) => {
     const TotalDate = [...BlankArr, ...DateArr]
 
     return (
-        <div style={{ marginTop: '100px', marginLeft: '35%', width: '400px', height: 'auto', background: ' #003333' }}>
+        <div style={{ marginTop: '100px', marginLeft: '35%', width: '400px', height: 'auto', background: ' #003333',borderRadius:'24px',padding:'24px'}}>
             <MonthYear month={month} year={year} />
             <Days />
             <Date TotalDate={TotalDate} dateValue={format(value, 'dd')} />
