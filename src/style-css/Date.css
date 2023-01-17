@@ -10,3 +10,10 @@
   height: 54px;
   background-color: black;
 }
+
+.p-div{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:37px;
+}
