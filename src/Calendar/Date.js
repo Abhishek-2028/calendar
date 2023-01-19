@@ -23,7 +23,7 @@ const Date = ({ TotalDate, dateValue }) => {
     }
   });
 
-  let daysinmonth = rows.map((d, i) => {
+  let daysinmonth = rows.map((d) => {
     return <tr>{d}</tr>;
   });
 
